@@ -1,101 +1,145 @@
 {
   "contractName": "RPS_ERC20",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol\":\"RPS_ERC20\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol\":{\"keccak256\":\"0xe9308c4e9019b4efcd952b19a28412b48fb523eb22357d86382a4f1737b001d7\",\"urls\":[\"bzz-raw://37fa166ff31482224e82162674e6bc958992ba25d6eae4a03eaf75ec4b57ffbe\",\"dweb:/ipfs/QmegzhgeMUH25Pn2w9TiuKuWN9D6mGhjs77SjWZUbW7gHg\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205affc91bedb4a366174bc66ded019a7c483932118cbaccdaf9eb3677122588f864736f6c63430007000033",
-  "deployedBytecode": "0x6080604052600080fdfea26469706673582212205affc91bedb4a366174bc66ded019a7c483932118cbaccdaf9eb3677122588f864736f6c63430007000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/RPS_ERC20.sol\":\"RPS_ERC20\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0xb03df8481a954604ad0c9125680893b2e3f7ff770fe470e38b89ac61b84e8072\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b34655953d18ba3a45b762fb6bdbb6549af69a27435e10ece178742bf70baf45\",\"dweb:/ipfs/QmcqjUoFLLMyx7dbwSHUnDBH6aphkVHXWQvQRRev5EAWEh\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x027b891937d20ccf213fdb9c31531574256de774bda99d3a70ecef6e1913ed2a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://087318b21c528119f649899f5b5580566dd8d7b0303d4904bd0e8580c3545f14\",\"dweb:/ipfs/Qmbn5Mj7aUn8hJuQ8VrQjjEXRsXyJKykgnjR9p4C3nfLtL\"]},\"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x83fe24f5c04a56091e50f4a345ff504c8bff658a76d4c43b16878c8f940c53b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4c3df1a7ca104b633a7d81c6c6f5192367d150cd5a32cba81f7f27012729013\",\"dweb:/ipfs/QmSim72e3ZVsfgZt8UceCvbiSuMRHR6WDsiamqNzZahGSY\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x90565a39ae45c80f0468dc96c7b20d0afc3055f344c8203a0c9258239f350b9f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26e8b38a7ac8e7b4463af00cf7fff1bf48ae9875765bf4f7751e100124d0bc8c\",\"dweb:/ipfs/QmWcsmkVr24xmmjfnBQZoemFniXjj3vwT78Cz6uqZW1Hux\"]},\"project:/src/contracts/RPS_ERC20.sol\":{\"keccak256\":\"0x4d262724d6a55ae0e19e2af9c260ac306de1e82c9d00c0e2d03da6a6cdade9e5\",\"urls\":[\"bzz-raw://e6ca86a1993bf4bf5f7057ac46e6ca8cb392dcabd59874ecaf94bb57990bfaa5\",\"dweb:/ipfs/QmUrQAk2thcZGdwUpdmGQunXVXP3hhgfhcwzrdRo3Csa4y\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220892737010f17a4adea0183acb57219ddc1f89f212044670b42f57b3ab7824ec664736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220892737010f17a4adea0183acb57219ddc1f89f212044670b42f57b3ab7824ec664736f6c63430008000033",
   "immutableReferences": {},
-  "sourceMap": "24:23:1:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "24:23:1:-:0;;;;;",
-  "source": "pragma solidity ^0.7.0;\ncontract RPS_ERC20 {\n\n}",
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "80:23:4:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "80:23:4:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\nimport \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\ncontract RPS_ERC20 {\n\n}",
   "sourcePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
   "ast": {
-    "absolutePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
+    "absolutePath": "project:/src/contracts/RPS_ERC20.sol",
     "exportedSymbols": {
+      "Context": [
+        670
+      ],
+      "ERC20": [
+        545
+      ],
+      "IERC20": [
+        623
+      ],
+      "IERC20Metadata": [
+        648
+      ],
       "RPS_ERC20": [
-        35
+        674
       ]
     },
-    "id": 36,
-    "license": null,
+    "id": 675,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 672,
         "literals": [
           "solidity",
           "^",
-          "0.7",
+          "0.8",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:1"
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "id": 673,
+        "nodeType": "ImportDirective",
+        "scope": 675,
+        "sourceUnit": 546,
+        "src": "24:55:4",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 35,
+        "id": 674,
         "linearizedBaseContracts": [
-          35
+          674
         ],
         "name": "RPS_ERC20",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 36,
-        "src": "24:23:1"
+        "scope": 675,
+        "src": "80:23:4"
       }
     ],
-    "src": "0:47:1"
+    "src": "0:103:4"
   },
   "legacyAST": {
-    "absolutePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
+    "absolutePath": "project:/src/contracts/RPS_ERC20.sol",
     "exportedSymbols": {
+      "Context": [
+        670
+      ],
+      "ERC20": [
+        545
+      ],
+      "IERC20": [
+        623
+      ],
+      "IERC20Metadata": [
+        648
+      ],
       "RPS_ERC20": [
-        35
+        674
       ]
     },
-    "id": 36,
-    "license": null,
+    "id": 675,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 672,
         "literals": [
           "solidity",
           "^",
-          "0.7",
+          "0.8",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:1"
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "id": 673,
+        "nodeType": "ImportDirective",
+        "scope": 675,
+        "sourceUnit": 546,
+        "src": "24:55:4",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 35,
+        "id": 674,
         "linearizedBaseContracts": [
-          35
+          674
         ],
         "name": "RPS_ERC20",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 36,
-        "src": "24:23:1"
+        "scope": 675,
+        "src": "80:23:4"
       }
     ],
-    "src": "0:47:1"
+    "src": "0:103:4"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.7.0+commit.9e61f92b.Emscripten.clang"
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {
     "5777": {
@@ -105,9 +149,8 @@
       "transactionHash": "0xd5004cb4f0a32a26fab90013c60731b496476beef87dbb71af1f807d5809179b"
     }
   },
-  "schemaVersion": "3.2.0",
-  "updatedAt": "2021-09-14T04:55:47.539Z",
-  "networkType": "ethereum",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-14T06:21:05.154Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
