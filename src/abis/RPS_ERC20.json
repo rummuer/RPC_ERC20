@@ -1,0 +1,121 @@
+{
+  "contractName": "RPS_ERC20",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol\":\"RPS_ERC20\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol\":{\"keccak256\":\"0xe9308c4e9019b4efcd952b19a28412b48fb523eb22357d86382a4f1737b001d7\",\"urls\":[\"bzz-raw://37fa166ff31482224e82162674e6bc958992ba25d6eae4a03eaf75ec4b57ffbe\",\"dweb:/ipfs/QmegzhgeMUH25Pn2w9TiuKuWN9D6mGhjs77SjWZUbW7gHg\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205affc91bedb4a366174bc66ded019a7c483932118cbaccdaf9eb3677122588f864736f6c63430007000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212205affc91bedb4a366174bc66ded019a7c483932118cbaccdaf9eb3677122588f864736f6c63430007000033",
+  "immutableReferences": {},
+  "sourceMap": "24:23:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "24:23:1:-:0;;;;;",
+  "source": "pragma solidity ^0.7.0;\ncontract RPS_ERC20 {\n\n}",
+  "sourcePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
+  "ast": {
+    "absolutePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
+    "exportedSymbols": {
+      "RPS_ERC20": [
+        35
+      ]
+    },
+    "id": 36,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "RPS_ERC20",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "24:23:1"
+      }
+    ],
+    "src": "0:47:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/mallikarjun/RPS_ERC20/src/contracts/RPS_ERC20.sol",
+    "exportedSymbols": {
+      "RPS_ERC20": [
+        35
+      ]
+    },
+    "id": 36,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "RPS_ERC20",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "24:23:1"
+      }
+    ],
+    "src": "0:47:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.0+commit.9e61f92b.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xd465F6f8D1256a1166976c2Cd1d073dc6d883151",
+      "transactionHash": "0xd5004cb4f0a32a26fab90013c60731b496476beef87dbb71af1f807d5809179b"
+    }
+  },
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2021-09-14T04:55:47.539Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
