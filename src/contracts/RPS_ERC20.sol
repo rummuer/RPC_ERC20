@@ -1,7 +1,7 @@
 pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract RPS_ERC20 is ERC20{
-    address owner;
+    address public owner;
 constructor() public ERC20("RPS", "RPS") {
     _mint(address(this),1000);
     owner = msg.sender;
@@ -11,8 +11,8 @@ event playResult(uint pResult, uint contractChoice);
 modifier onlyOwner() {
     require(msg.sender==owner, "only owner can mint");_;
 }
-function mint(uint amount) public onlyOwner {
-    _mint(msg.sender,amount);
+function mint(address receiver, uint amount) public onlyOwner {
+    _mint(receiver,amount);
 }
 function play(uint userChoice, uint amount) public {    
     require(userChoice<3, "not a legible choice");
